@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
-cd $HOME/Relax
+cd $HOME/armof
 install() {
 rm -rf $HOME/.telegram-cli
 sudo chmod +x tg
-chmod +x Relax
+chmod +x armof
 chmod +x ts
 ./ts
 }
 get() {
-rm -fr Relax.lua
+rm -fr armof.lua
 rm -fr sudo.lua
-wget "https://raw.githubusercontent.com/RelaxTele/Relax/master/Relax.lua"
+wget "https://raw.githubusercontent.com/armofTele/armof/master/armof.lua"
 lua start.lua
 }
 installall(){
@@ -47,7 +47,7 @@ fi
 installall
 cd ..
 rm -rf luarocks*
-cd Relax
+cd armof
 rm -rf luarocks*
 lua start.lua
 
