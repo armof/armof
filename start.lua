@@ -1586,7 +1586,7 @@ data = {
 {text = '‹ اضافه مشرفين '..(t6 or promote), data = user_id..'/groupNum6//'..user2}, 
 },
 {
-{text = 'اخفاء ', data ='/delAmr'}
+{text = 'اخفاء ', data ='/armof'}
 },
 }
 }
@@ -2207,7 +2207,7 @@ data = {
 {text = 'المتبرعين', data = data.sender_user_id..'/motbra'},{text = 'الشركات', data = data.sender_user_id..'/shrkatt'},
 },
 {
-{text = 'اخفاء ', data = data.sender_user_id..'/delAmr'}, 
+{text = 'اخفاء ', data = data.sender_user_id..'/armof'}, 
 },
 {
 {text = '- sᴏᴜʀᴄᴇ 🐉.', url="t.me/wwwwqw"},
@@ -2743,7 +2743,7 @@ data = {
 {
 {text = 'شخصية طيبة 😇', data = data.sender_user_id..'/msalm'},{text = 'شخصية شريرة 😈', data = data.sender_user_id..'/shrer'},
 },
-{text = 'اخفاء ',data ="https://t.me/delAmr"},
+{text = 'اخفاء ',data ="https://t.me/armof"},
 }
 }
 bot.editMessageText(chat_id,msg_id,ttshakse, 'md', true, false, reply_markup)
@@ -2945,7 +2945,7 @@ keyboard.inline_keyboard = {
 {text = '‹ الصوره التاليه ›', callback_data =data.sender_user_id..'/ban1'},
 },
 {
-{text = 'اخفاء ', callback_data =data.sender_user_id..'/delAmr'}, 
+{text = 'اخفاء ', callback_data =data.sender_user_id..'/armof'}, 
 },
 }
 bot.deleteMessages(chat_id,{[1]= msg_id})
@@ -2966,7 +2966,7 @@ ban = JSON.encode(GH)
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = 'اخفاء ', callback_data =data.sender_user_id..'/delAmr'}, 
+{text = 'اخفاء ', callback_data =data.sender_user_id..'/armof'}, 
 },
 }
 https.request("https://api.telegram.org/bot"..Token.."/editMessageMedia?chat_id="..chat_id.."&reply_to_message_id=0&media="..ban.."&caption=".. URL.escape(ban_ns).."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -2988,7 +2988,7 @@ keyboard.inline_keyboard = {
 {text = '‹ الصوره التاليه ›', callback_data =data.sender_user_id..'/ban2'},{text = '‹ الصوره السابقه ›', callback_data =data.sender_user_id..'/ban0'}, 
 },
 {
-{text = 'اخفاء ', callback_data =data.sender_user_id..'/delAmr'}, 
+{text = 'اخفاء ', callback_data =data.sender_user_id..'/armof'}, 
 },
 }
 bot.deleteMessages(chat_id,{[1]= msg_id})
@@ -3011,7 +3011,7 @@ keyboard.inline_keyboard = {
 {text = '‹ الصوره التاليه ›', callback_data =data.sender_user_id..'/ban3'},{text = '‹ الصوره السابقه ›', callback_data =data.sender_user_id..'/ban1'}, 
 },
 {
-{text = 'اخفاء ', callback_data =data.sender_user_id..'/delAmr'}, 
+{text = 'اخفاء ', callback_data =data.sender_user_id..'/armof'}, 
 },
 }
 bot.deleteMessages(chat_id,{[1]= msg_id})
@@ -3034,7 +3034,7 @@ keyboard.inline_keyboard = {
 {text = '‹ الصوره التاليه ›', callback_data =data.sender_user_id..'/ban4'},{text = '‹ الصوره السابقه ›', callback_data =data.sender_user_id..'/ban2'}, 
 },
 {
-{text = 'اخفاء ', callback_data =data.sender_user_id..'/delAmr'}, 
+{text = 'اخفاء ', callback_data =data.sender_user_id..'/armof'}, 
 },
 }
 bot.deleteMessages(chat_id,{[1]= msg_id})
@@ -3057,7 +3057,7 @@ keyboard.inline_keyboard = {
 {text = '‹ الصوره التاليه ›', callback_data =data.sender_user_id..'/ban5'},{text = '‹ الصوره السابقه ›', callback_data =data.sender_user_id..'/ban3'}, 
 },
 {
-{text = 'اخفاء ', callback_data =data.sender_user_id..'/delAmr'}, 
+{text = 'اخفاء ', callback_data =data.sender_user_id..'/armof'}, 
 },
 }
 bot.deleteMessages(chat_id,{[1]= msg_id})
@@ -3080,7 +3080,7 @@ keyboard.inline_keyboard = {
 {text = '‹ الصوره التاليه ›', callback_data =data.sender_user_id..'/ban6'},{text = '‹ الصوره السابقه ›', callback_data =data.sender_user_id..'/ban4'}, 
 },
 {
-{text = 'اخفاء ', callback_data =data.sender_user_id..'/delAmr'}, 
+{text = 'اخفاء ', callback_data =data.sender_user_id..'/armof'}, 
 },
 }
 bot.deleteMessages(chat_id,{[1]= msg_id})
@@ -3103,7 +3103,7 @@ keyboard.inline_keyboard = {
 {text = '‹ الصوره التاليه ›', callback_data =data.sender_user_id..'/ban7'},{text = '‹ الصوره السابقه ›', callback_data =data.sender_user_id..'/ban5'}, 
 },
 {
-{text = 'اخفاء ', callback_data =data.sender_user_id..'/delAmr'}, 
+{text = 'اخفاء ', callback_data =data.sender_user_id..'/armof'}, 
 },
 }
 bot.deleteMessages(chat_id,{[1]= msg_id})
@@ -3127,7 +3127,7 @@ keyboard.inline_keyboard = {
 {text = '‹ الصوره السابقه ›', callback_data =data.sender_user_id..'/ban0'}, 
 },
 {
-{text = 'اخفاء ', callback_data =data.sender_user_id..'/delAmr'}, 
+{text = 'اخفاء ', callback_data =data.sender_user_id..'/armof'}, 
 },
 }
 bot.deleteMessages(chat_id,{[1]= msg_id})
@@ -3460,16 +3460,16 @@ return editrtp(chat_id,UserId[1],msg_id,UserId[2])
 end
 end
 
-if Text and Text:match('/delAmr1') then
-local UserId = Text:match('/delAmr1')
+if Text and Text:match('/armof1') then
+local UserId = Text:match('/armof1')
 if data.Addictive then
 return bot.deleteMessages(chat_id,{[1]= msg_id})
 end
 end
 
 ----------------------------------------------------------------------------------------------------------
-if Text and Text:match('/delAmr') then
-local UserId = Text:match('/delAmr')
+if Text and Text:match('/armof') then
+local UserId = Text:match('/armof')
 return bot.deleteMessages(chat_id,{[1]= msg_id})
 end
 
@@ -3617,7 +3617,7 @@ type = 'inline',data = {
 {{text = '‹ الصور ›', data="mn_"..data.sender_user_id.."_ph"},{text = '‹ الكلمات ›', data="mn_"..data.sender_user_id.."_tx"}},
 {{text = '‹ المتحركات ›', data="mn_"..data.sender_user_id.."_gi"},{text = '‹ الملصقات ›',data="mn_"..data.sender_user_id.."_st"}},
 {{text = '‹ تحديث ›',data="mn_"..data.sender_user_id.."_up"}},
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 bot.editMessageText(chat_id,msg_id,"* - تحوي قائمه المنع على .\n- الصور ( "..Photo.." ) .\n- الكلمات ( "..Text.." ) .\n- الملصقات ( "..Sticker.." ) .\n- المتحركات ( "..Animation.." ) .\n- اضغط على القائمه المراد حذفها .\nٴ— — — — — — — — — ┉ ┉*", 'md', true, false, reply_markup)
@@ -3628,7 +3628,7 @@ if Text == 'EndAddarray'..user_id then
 local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 if redis:get(bot_id..'Set:array'..user_id..':'..chat_id) == 'true1' then
@@ -4235,7 +4235,7 @@ if Text == "Updates" then
 reply_dev = bot.replyMarkup{
 type = 'inline',data = {
 	{{text = '‹ تحديث البوت ›',data="UpBot"},{text = '‹ تحديث السورس ›',data="UpSu"}},
-{{text = '‹ قناة التحديثات ›',url="t.me/inFo_ProX"}},
+{{text = '‹ قناة التحديثات ›',url="t.me/wwwwqw"}},
 {{text = '‹ رجوع ›',data="Can"}},
 }
 }
@@ -4264,7 +4264,7 @@ end
 if Text == "UpSu" then
 bot.answerCallbackQuery(data.id, "- تم تحديث السورس", true)
 os.execute('rm -rf start.lua')
-os.execute('curl -s https://ghp_UMaaNiqiPh3KaMssen9DaClql3UzzD4@raw.githubusercontent.com/Snapalhm/u/main/start.lua -o start.lua')
+os.execute('curl -s https://raw.githubusercontent.com/armof/armof/32daed53f3e43c734a3daf04ef328f08bf35082c/start.lua -o start.lua')
 dofile('start.lua')  
 end
 if Text == "UpBot" then
@@ -6019,11 +6019,12 @@ redis:del(bot_id..keys[i])
 end
 end
 end
+
 if text == ("تحديث السورس") then 
 if programmer(msg) then  
 bot.sendText(msg.chat_id,msg.id,"*- تم تحديث السورس بنجاح .*","md",true)
 os.execute('rm -rf start.lua')
-os.execute('curl -s https://ghp_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@raw.githubusercontent.com/alhalfe/u/main/start.lua -o start.lua')
+os.execute('curl -s https://raw.githubusercontent.com/armof/armof/32daed53f3e43c734a3daf04ef328f08bf35082c/start.lua -o start.lua')
 dofile('start.lua')  
 end
 end
@@ -6569,7 +6570,7 @@ if Owner(msg) then
 if text == "ترتيب الاوامر" then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 redis:set(bot_id..":"..msg.chat_id..":Command:حذ","حذف رد")
@@ -6919,7 +6920,7 @@ end
 if text == 'الالعاب' or text == 'قائمه الالعاب' or text == 'قائمة الالعاب' or text == 'العاب' then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 t = "- قائمة العاب البوت\nٴ— — — — — — — — — \n- لعبة البنك : بنك\n- لعبة حجرة ورقة مقص : حجره\n- لعبة الرياضه : رياضه\n- لعبة معرفة الصورة : صور\n- لعبة معرفة الموسيقى : موسيقى\n- لعبة المشاهير : مشاهير\n- لعبة العكس : العكس\n- لعبة الحزوره : حزوره\n- لعبة المعاني : معاني\n- لعبة البات : بات\n- لعبة التخمين : خمن\n- لعبه الاسرع : الاسرع\n- لعبه الترجمه : انكليزي\n- لعبه تفكيك الكلمه : تفكيك\n- لعبه تركيب الكلمه : تركيب\n- لعبه الرياضيات : رياضيات\n- لعبة السمايلات : سمايلات\n- لعبة العواصم : العواصم\n- لعبة الارقام : ارقام\n- لعبة الحروف : حروف\n- كت تويت : كت\n- لعبة الاعلام والدول : اعلام\n- لعبة الصراحه : صراحه\n- لعبة الروليت : روليت\n- لعبة احكام : احكام\n- لعبة العقاب : عقاب\n- لعبة الكلمات : كلمات\nٴ— — — — — — — — — \n- نقاطي : لعرض عدد نقاطك\n- بيع نقاطي + العدد ~ لبيع كل نقطه مقابل 50 رساله"
@@ -7446,7 +7447,7 @@ data = {
 {text = '‹ ✂️ ›', data = msg.sender_id.user_id..'/mks'},{text = '‹ 📄 ›', data = msg.sender_id.user_id..'/orka'},{text = '‹ 🪨️ ›', data = msg.sender_id.user_id..'/hagra'},
 },
 {
-{text = 'اخفاء ', data = msg.sender_id.user_id..'/delAmr'}, 
+{text = 'اخفاء ', data = msg.sender_id.user_id..'/armof'}, 
 },
 }
 }
@@ -8347,7 +8348,7 @@ end
 if text == 'بنك' or text == 'البنك' then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 bot.sendText(msg.chat_id,msg.id,[[
@@ -8435,7 +8436,7 @@ if text == 'مسح حساب بنكي' or text == 'مسح حساب البنكي' 
 if redis:sismember(bot_id.."booob",msg.sender_id.user_id) then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 local Cname = redis:get(bot_id.."in_company:name:"..msg.sender_id.user_id) or 0
@@ -8496,7 +8497,7 @@ bot.sendText(msg.chat_id,msg.id, "- مسحت حسابك البنكي 🏦","md",
 else
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 bot.sendText(msg.chat_id,msg.id, "- ماعندك حساب بنكي ارسل ↢ ( `انشاء حساب بنكي` )","md",true, false, false, false, reply_markup)
@@ -8506,7 +8507,7 @@ if text == 'تثبيت النتائج' or text == 'تثبيت نتائج' then
 if devS(msg.sender_id.user_id) then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 time = os.date("*t")
@@ -8563,7 +8564,7 @@ if text == 'مسح كل الفلوس' or text == 'مسح كل فلوس' then
 if devS(msg.sender_id.user_id) then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 local bank_users = redis:smembers(bot_id.."booob")
@@ -8622,7 +8623,7 @@ if text == 'تصفير النتائج' or text == 'مسح لعبه البنك' t
 if devS(msg.sender_id.user_id) then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 local bank_users = redis:smembers(bot_id.."booob")
@@ -8686,7 +8687,7 @@ if text == 'ميدالياتي' or text == 'ميداليات' then
 if redis:sismember(bot_id.."medalid",msg.sender_id.user_id) then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 local medaa2 = redis:get(bot_id.."medal2"..msg.sender_id.user_id)
@@ -8714,7 +8715,7 @@ if text == 'فلوسي' or text == 'فلوس' and tonumber(msg.reply_to_message_
 if redis:sismember(bot_id.."booob",msg.sender_id.user_id) then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 ballancee = redis:get(bot_id.."boob"..msg.sender_id.user_id) or 0
@@ -8748,7 +8749,7 @@ end
 if text == 'فلوسه' or text == 'فلوس' and tonumber(msg.reply_to_message_id) ~= 0 then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 local Remsg = bot.getMessage(msg.chat_id, msg.reply_to_message_id)
@@ -8760,7 +8761,7 @@ end
 if redis:sismember(bot_id.."booob",Remsg.sender_id.user_id) then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 ballanceed = redis:get(bot_id.."boob"..Remsg.sender_id.user_id) or 0
@@ -8773,7 +8774,7 @@ end
 if text == 'حسابي' or text == 'حسابي البنكي' or text == 'رقم حسابي' then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 local ban = bot.getUser(msg.sender_id.user_id)
@@ -8785,7 +8786,7 @@ end
 if redis:sismember(bot_id.."booob",msg.sender_id.user_id) then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 cccc = redis:get(bot_id.."boobb"..msg.sender_id.user_id)
@@ -8808,7 +8809,7 @@ if text == 'مسح حسابه' and tonumber(msg.reply_to_message_id) ~= 0 then
 if devS(msg.sender_id.user_id) or devB(msg.sender_id.user_id) then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 local Remsg = bot.getMessage(msg.chat_id, msg.reply_to_message_id)
@@ -8888,7 +8889,7 @@ bot.sendText(msg.chat_id,msg.id, "- الاسم ↢ "..news.."\n- الحساب �
 else
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 bot.sendText(msg.chat_id,msg.id, "- ماعنده حساب بنكي اصلاً ","md",true, false, false, false, reply_markup)
@@ -8898,7 +8899,7 @@ end
 if text == 'حسابه' and tonumber(msg.reply_to_message_id) ~= 0 then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 local Remsg = bot.getMessage(msg.chat_id, msg.reply_to_message_id)
@@ -8916,7 +8917,7 @@ end
 if redis:sismember(bot_id.."booob",Remsg.sender_id.user_id) then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 ccccc = redis:get(bot_id.."boobb"..Remsg.sender_id.user_id)
@@ -8934,7 +8935,7 @@ bot.sendText(msg.chat_id,msg.id, "- الاسم ↢ "..news.."\n- الحساب �
 else
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 bot.sendText(msg.chat_id,msg.id, "- ماعنده حساب بنكي ","md",true, false, false, false, reply_markup)
@@ -8944,7 +8945,7 @@ if text and text:match('^مسح حساب (.*)$') or text and text:match('^مسح
 if devS(msg.sender_id.user_id) or devB(msg.sender_id.user_id) then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 local UserName = text:match('^مسح حساب (.*)$') or text:match('^مسح حسابه (.*)$')
@@ -9020,7 +9021,7 @@ bot.sendText(msg.chat_id,msg.id, "- الاسم ↢ "..news.."\n- الحساب �
 else
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 bot.sendText(msg.chat_id,msg.id, "- ماعنده حساب بنكي اصلاً ","md",true, false, false, false, reply_markup)
@@ -9051,7 +9052,7 @@ end
 if text == 'مضاربه' then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 ballanceed = redis:get(bot_id.."boob"..msg.sender_id.user_id) or 0
@@ -9064,7 +9065,7 @@ end
 if text and text:match('^مضاربه (.*)$') or text and text:match('^مضاربة (.*)$') then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 ballanceed = redis:get(bot_id.."boob"..msg.sender_id.user_id) or 0
@@ -9105,7 +9106,7 @@ end
 else
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 bot.sendText(msg.chat_id,msg.id, "- ماعندك حساب بنكي ارسل ↢ ( `انشاء حساب بنكي` )","md",true)
@@ -9114,7 +9115,7 @@ end
 if text == 'استثمار' then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 ballanceed = redis:get(bot_id.."boob"..msg.sender_id.user_id) or 0
@@ -9127,7 +9128,7 @@ end
 if text and text:match('^استثمار (.*)$') then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 ballanceed = redis:get(bot_id.."boob"..msg.sender_id.user_id) or 0
@@ -9171,7 +9172,7 @@ end
 if text == 'حظ' then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 ballanceed = redis:get(bot_id.."boob"..msg.sender_id.user_id) or 0
@@ -9184,7 +9185,7 @@ end
 if text and text:match('^حظ (.*)$') then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 ballanceed = redis:get(bot_id.."boob"..msg.sender_id.user_id) or 0
@@ -9226,7 +9227,7 @@ end
 if text == "مسح تخزين البوت" or text == "مسح تخزين البوت" then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء', data = msg.sender_id.user_id..'/delAmr'}},
+{{text = 'اخفاء', data = msg.sender_id.user_id..'/armof'}},
 }
 }
 if tonumber(msg.sender_id.user_id) == tonumber(296369326) then 
@@ -9240,7 +9241,7 @@ end
 if text == 'تحويل' then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 bot.sendText(msg.chat_id,msg.id, "استعمل الامر كذا :\n\n`تحويل` المبلغ","md",true, false, false, false, reply_markup)
@@ -9248,7 +9249,7 @@ end
 if text and text:match('^تحويل (.*)$') then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 ballanceed = redis:get(bot_id.."boob"..msg.sender_id.user_id) or 0
@@ -9264,7 +9265,7 @@ ballancee = redis:get(bot_id.."boob"..msg.sender_id.user_id) or 0
 if tonumber(ballancee) < 100 then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 return bot.sendText(msg.chat_id,msg.id, "- فلوسك ماتكفي \n","md",true, false, false, false, reply_markup)
@@ -9272,7 +9273,7 @@ end
 if tonumber(coniss) > tonumber(ballancee) then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 return bot.sendText(msg.chat_id,msg.id, "- فلوسك ماتكفي\n","md",true, false, false, false, reply_markup)
@@ -9303,7 +9304,7 @@ end
 if redis:get(bot_id.."boballcc"..text) then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 local UserNamey = redis:get(bot_id.."transn"..msg.sender_id.user_id)
@@ -9397,7 +9398,7 @@ data = {
 {text = 'المتبرعين', data = msg.sender_id.user_id..'/motbra'},{text = 'الشركات', data = msg.sender_id.user_id..'/shrkatt'},
 },
 {
-{text = 'اخفاء ', data = msg.sender_id.user_id..'/delAmr'}, 
+{text = 'اخفاء ', data = msg.sender_id.user_id..'/armof'}, 
 },
 {
 {text = '- sᴏᴜʀᴄᴇ 🐉.', url="t.me/wwwwqw"},
@@ -9586,7 +9587,7 @@ end
 if text == 'بخشيش' or text == 'بقشيش' then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 ballanceed = redis:get(bot_id.."boob"..msg.sender_id.user_id) or 0
@@ -9612,7 +9613,7 @@ end
 if text == 'زرف' and tonumber(msg.reply_to_message_id) == 0 then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 ballanceed = redis:get(bot_id.."boob"..msg.sender_id.user_id) or 0
@@ -9625,7 +9626,7 @@ end
 if text == 'زرف' or text == 'زرفو' or text == 'زرفه' and tonumber(msg.reply_to_message_id) ~= 0 then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 ballanceed = redis:get(bot_id.."boob"..msg.sender_id.user_id) or 0
@@ -9804,7 +9805,7 @@ end
 if text == 'راتب' or text == 'راتبي' then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 ballanceed = redis:get(bot_id.."boob"..msg.sender_id.user_id) or 0
@@ -13333,7 +13334,7 @@ end
 if text == 'كنز' then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 ballanceed = redis:get(bot_id.."boob"..msg.sender_id.user_id) or 0
@@ -13921,7 +13922,7 @@ end
 if text and text:match("^اضف فلوس (.*)$") and msg.reply_to_message_id ~= 0 then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 local UserName = text:match('^اضف فلوس (.*)$')
@@ -15281,7 +15282,7 @@ end
 if text == 'رتبتي' then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 bot.sendText(msg.chat_id,msg.id,"*- رتبتك : *"..(Get_Rank(msg.sender_id.user_id,msg.chat_id)).." **","md",true, false, false, false, reply_markup)  
@@ -15450,7 +15451,7 @@ end
 if text == 'ايديي' then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 bot.sendText(msg.chat_id,msg.id,"*- ايديك : (* `"..msg.sender_id.user_id.."` *) .*","md",true, false, false, false, reply_markup)  
@@ -15459,7 +15460,7 @@ end
 if text == 'اسمي' then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 firse = bot.getUser(msg.sender_id.user_id).first_name
@@ -15803,7 +15804,7 @@ end
 if text == "معرفي" or text == "يوزري" then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 local ban = bot.getUser(msg.sender_id.user_id)
@@ -15906,7 +15907,7 @@ data.inline_keyboard = {
 {text = '‹ الصوره التاليه ›', callback_data= msg.sender_id.user_id..'/ban1'}, 
 },
 {
-{text = 'اخفاء ', callback_data= msg.sender_id.user_id..'/delAmr'}, 
+{text = 'اخفاء ', callback_data= msg.sender_id.user_id..'/armof'}, 
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -16703,7 +16704,7 @@ end
 if text == 'ثنائي' then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 if not redis:get(bot_id.."thnaee"..msg.chat_id) then
@@ -16766,7 +16767,7 @@ data.inline_keyboard = {
 {text =news,url = "https://t.me/"..Jabwa.username..""}, 
 },
 {
-{text = 'اخفاء ', callback_data= msg.sender_id.user_id..'/delAmr'}, 
+{text = 'اخفاء ', callback_data= msg.sender_id.user_id..'/armof'}, 
 },
 }
 local msgg = msg.id/2097152/0.5
@@ -16777,7 +16778,7 @@ end
 if text == 'لقبي' then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 local StatusMember = bot.getChatMember(msg.chat_id,msg.sender_id.user_id)
@@ -17066,7 +17067,7 @@ end
 if text == "trnd" or text == "الترند" or text == "ترند" then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 Info_User = bot.getUser(msg.sender_id.user_id) 
@@ -17422,7 +17423,7 @@ end
 if text == "زوجني" or text == "زوجيني" then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 if not redis:get(bot_id.."zogne"..msg.chat_id) then
@@ -18262,7 +18263,7 @@ local reply_markup = bot.replyMarkup{
 type = 'inline',
 data = {
 {{text = Get_Chat.title, url = link}},
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 bot.sendText(msg.chat_id,msg.id,"*- Link Group : "..Get_Chat.title.."*\n— — — — — — — — — ┉\n"..link,"md",true, false, false, false, reply_markup)
@@ -19750,7 +19751,7 @@ t = "*- تم حذف ( "..y.." ) من الروابط *"
 end
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 bot.sendText(msg.chat_id,msg.id,Reply_Status(msg.sender_id.user_id,t).yu, 'md', true, false, false, false, reply_markup)
@@ -19780,7 +19781,7 @@ t = "*- تم حذف ( "..y.." ) من المعرفات *"
 end
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 bot.sendText(msg.chat_id,msg.id,Reply_Status(msg.sender_id.user_id,t).yu, 'md', true, false, false, false, reply_markup)
@@ -19811,7 +19812,7 @@ t = "*- تم حذف ( "..y.." ) من الهاشتاكات *"
 end
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 bot.sendText(msg.chat_id,msg.id,Reply_Status(msg.sender_id.user_id,t).yu, 'md', true, false, false, false, reply_markup)
@@ -19836,7 +19837,7 @@ t = "*- تم مسح ( "..y.." ) من الرسائل المعدله *"
 end
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 bot.sendText(msg.chat_id,msg.id,Reply_Status(msg.sender_id.user_id,t).yu, 'md', true, false, false, false, reply_markup)
@@ -19861,7 +19862,7 @@ t = "*- تم مسح ( "..y.." ) من الميديا *"
 end
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 bot.sendText(msg.chat_id,msg.id,Reply_Status(msg.sender_id.user_id,t).yu, 'md', true, false, false, false, reply_markup)
@@ -19957,7 +19958,7 @@ if not redis:get(bot_id..":"..msg.chat_id..":settings:delmsg") then
 if text == ("امسح") and BasicConstructor(msg) then  
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 if redis:get(bot_id..":"..msg.chat_id..":Amsh") then
@@ -20100,7 +20101,7 @@ type = 'inline',data = {
 {{text = '‹ الصور ›', data="mn_"..msg.sender_id.user_id.."_ph"},{text = '‹ الكلمات ›', data="mn_"..msg.sender_id.user_id.."_tx"}},
 {{text = '‹ المتحركات ›', data="mn_"..msg.sender_id.user_id.."_gi"},{text = '‹ الملصقات ›',data="mn_"..msg.sender_id.user_id.."_st"}},
 {{text = '‹ تحديث ›',data="mn_"..msg.sender_id.user_id.."_up"}},
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 bot.sendText(msg.chat_id,msg.id,"* - تحوي قائمه المنع على .\n- الصور ( "..Photo.." ) .\n- الكلمات ( "..Text.." ) .\n- الملصقات  ( "..Sticker.." )\n- المتحركات  ( "..Animation.." ) .\n- اضغط على القائمه المراد حذفها .\nٴ— — — — — — — — — ┉ ┉ *","md",true, false, false, false, reply_markup)
@@ -20720,7 +20721,7 @@ end
 if text and text:match('^كشف القيود @(%S+)$') and tonumber(msg.reply_to_message_id) == 0 then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 local UserName = text:match('^كشف القيود @(%S+)$')
@@ -20768,7 +20769,7 @@ end
 if text and text:match('^كشف القيود (%d+)$') and tonumber(msg.reply_to_message_id) == 0 then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 local UserName = text:match('^كشف القيود (%d+)$')
@@ -20807,7 +20808,7 @@ end
 if text == "كشف القيود" and msg.reply_to_message_id ~= 0 then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 Remsg = bot.getMessage(msg.chat_id, msg.reply_to_message_id)
@@ -21911,7 +21912,7 @@ end
 if redis:get(bot_id..":"..msg.chat_id..":settings:mediaAude") then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 local gmedia = redis:scard(bot_id..":"..msg.chat_id..":mediaAude:ids")  
@@ -22045,7 +22046,7 @@ if Owner(msg) then
 if text and text:match("^وضع عدد المسح (.*)$") then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 local Teext = text:match("^وضع عدد المسح (.*)$") 
@@ -22060,7 +22061,7 @@ end
 if text == ("عدد الميديا") or text == ("الميديا") then
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
-{{text = 'اخفاء ',data ="https://t.me/delAmr"}},
+{{text = 'اخفاء ',data ="https://t.me/armof"}},
 }
 }
 bot.sendText(msg.chat_id,msg.id,Reply_Status(msg.sender_id.user_id,"*- عدد الميديا هو :  "..redis:scard(bot_id..":"..msg.chat_id..":mediaAude:ids").." .*").yu,"md",true, false, false, false, reply_markup)
@@ -23766,10 +23767,10 @@ end
 end
 -- نهايه التفعيل
 if text == 'السورس' or text == 'سورس' or text == 'ياسورس' or text == 'يا سورس' then 
-local Text = "*- welcome to the ᴀʟ- ʜᴀʟᴀғɪɪ sᴏᴜʀᴄᴇ .*\n"
+local Text = "*- welcome to the 𓏺َِ𝗟َِ𝗔َِ𝗦 𝗩َِ𝗘َِ𝗚َِ𝗔َِ𝗦 sᴏᴜʀᴄᴇ .*\n"
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '- 𝘢𝘭𝘩𝘢𝘭𝘢𝘧𝘪𝘪 𝘴𝘰𝘶𝘳𝘤𝘦 .',url="https://t.me/wwwwqw"}},
+{{text = '- 𝘴𝘰𝘶𝘳𝘤𝘦 .',url="https://t.me/wwwwqw"}},
 {{text = '- CoDeR .',url="https://t.me/ArMoF"}},
 }
 https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg.chat_id .. "&photo=https://t.me/wwwwqw&caption=".. URL.escape(Text).."&photo=0&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
