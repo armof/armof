@@ -102,7 +102,6 @@ SudosS = {296369326}
 Sudos = {sudoid,296369326}
 ----------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------
-
 function coin(coin)
 local Coins = tostring(coin)
 local Coins = Coins:gsub('٠','0')
@@ -4965,7 +4964,7 @@ end
 local reply_markup = bot.replyMarkup{
 type = 'inline',data = {
 {{text = '-  اضفني الى مجموعتك .',url="https://t.me/"..bot.getMe().username.."?startgroup=new"}},
-{{text = '- 𝗏𝖾𝗀𝖺𝗌 𝗌𝗈𝗎𝗋𝖼𝖾 .',url="t.me/wwwwqw"}},
+{{text = '- 𝚂ᴏᴜʀᴄᴇ .',url="t.me/wwwwqw"}},
 }
 }
 if redis:get(bot_id..":start") then
@@ -6020,6 +6019,7 @@ redis:del(bot_id..keys[i])
 end
 end
 end
+
 if text == ("تحديث السورس") then 
 if programmer(msg) then  
 bot.sendText(msg.chat_id,msg.id,"*- تم تحديث السورس بنجاح .*","md",true)
@@ -13486,7 +13486,7 @@ local knez = ballancee + 11000
 redis:set(bot_id.."boob"..msg.sender_id.user_id , knez)
 local ballancee = redis:get(bot_id.."boob"..msg.sender_id.user_id) or 0
 local convert_mony = string.format("%.0f",ballancee)
-bot.sendText(msg.chat_id,msg.id,""..neews.." لقد وجدت كنز\nالكنز : كبريت ناري ??\nسعره : 11000 دينار 💵\nرصيدك الان : "..convert_mony.." دينار 💵\n","md",true, false, false, false, reply_markup)
+bot.sendText(msg.chat_id,msg.id,""..neews.." لقد وجدت كنز\nالكنز : كبريت ناري 🪔\nسعره : 11000 دينار 💵\nرصيدك الان : "..convert_mony.." دينار 💵\n","md",true, false, false, false, reply_markup)
 redis:setex(bot_id.."yiioooo" .. msg.sender_id.user_id,1800, true)
 elseif Descriptioont == "20" then
 local knez = ballancee + 33000
@@ -23767,7 +23767,7 @@ end
 end
 -- نهايه التفعيل
 if text == 'السورس' or text == 'سورس' or text == 'ياسورس' or text == 'يا سورس' then 
-local Text = "*- welcome to the 𝗏𝖾𝗀𝖺𝗌 𝗌𝗈𝗎𝗋𝖼𝖾 .*\n"
+local Text = "*- welcome to the 𓏺َِ𝗟َِ𝗔َِ𝗦 𝗩َِ𝗘َِ𝗚َِ𝗔َِ𝗦 sᴏᴜʀᴄᴇ .*\n"
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = '- 𝘴𝘰𝘶𝘳𝘤𝘦 .',url="https://t.me/wwwwqw"}},
